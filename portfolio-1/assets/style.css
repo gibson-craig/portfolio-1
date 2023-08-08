@@ -10,20 +10,27 @@ body {
   }
 
 .header {
-  display: flex;
-  flex-direction: row;
-  align-items:;
   padding: 60px;
-  text-align: center;
   background: black;
   color: white;
   font-size: 30px;
 } 
 
+.h1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  text-align: center;
+}
+
 .nav {
-  text-align: end;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: center;
   color: white;
   font-size: 15px;
+  text-align: center;
 }
 
 h1,
