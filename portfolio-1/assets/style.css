@@ -27,15 +27,17 @@ body {
 }
 
 .nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  align-content: center;
-  color: white;
+  padding: 14px 16px;
+  color: rgb(244, 6, 6);
   font-size: 15px;
-  text-align: center;
+  float: right;
+  align-content: center;
 }
 
+.grid-container {
+  display: inline-grid;
+  gap: 20px 20px;
+}
 h1,
 h2,
 h3,
