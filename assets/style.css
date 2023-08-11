@@ -61,6 +61,13 @@ body {
   max-width: 90%;
   text-align: center;
   margin: 0 auto;
+  text-align: center;
+}
+.first-work::after {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  text-align: center;
 }
 h1,
 h2,
@@ -76,7 +83,9 @@ p {
 }
 
 .image {
+  position: relative;
   width: 100%;
   /* max-width: 300px; */
   margin: 0 auto;
+  height: 400px;
 }
